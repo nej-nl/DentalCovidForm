@@ -1,0 +1,97 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.form {
+  margin: 5% 10% 10% 10%;
+  padding: 0;
+}
+
+.title-form {
+  text-align: center;
+  padding-bottom: 1em;
+  color: #74d6ad;
+}
+.container-main {
+  border: 2px solid#74d6ad;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.container-questions {
+  padding: 0.5em 0;
+}
+
+.patient-name {
+  padding: 0.5em 0;
+}
+
+.signature-date {
+  padding: 0.5em 0;
+}
+
+.submit-btn {
+  padding-top: 1em;
+}
+
+/******************Login********************/
+
+.bg-img {
+  background-image: url(../img/tb-horz.jpg);
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container-intro-login {
+  position: absolute;
+  right: 0;
+  /*margin: 15%;*/
+  margin: 19% 8% 15% 15%;
+  max-width: 300px;
+  padding: 16px;
+  background-color: transparent;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.btn {
+  background-color: #74d6ad;
+  color: black;
+  font-weight: bold;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .bg-img {
+  }
+}
